@@ -32,7 +32,7 @@ const Menu = () => {
       <View style={styles.menupoints}>
         <Text style={styles.menuHeaderText}>About</Text>
       </View>
-      <View style={{ flex: 5, backgroundColor: "green" }} />
+      <View style={{ flex: 5, backgroundColor: "#d2c1b5" }} />
       <View style={styles.menupoints}>
         <Text style={styles.menuHeaderText}>Contact</Text>
       </View>
@@ -59,7 +59,7 @@ const styles = StyleSheet.create({
   },
   menuHeader: {
     flex: 1,
-    backgroundColor: "red",
+    backgroundColor: "#614b3e",
     alignItems: "center",
     justifyContent: "center",
   },
@@ -69,7 +69,7 @@ const styles = StyleSheet.create({
   },
   menupoints: {
     flex: 1,
-    backgroundColor: "blue",
+    backgroundColor: "#8c7b73",
     alignItems: "center",
     justifyContent: "center",
   },
