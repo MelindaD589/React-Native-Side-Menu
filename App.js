@@ -23,7 +23,19 @@ const Menu = () => {
       <View style={styles.menuHeader}>
         <Text style={styles.menuHeaderText}>Menu</Text>
       </View>
-      <View style={{ flex: 9, backgroundColor: "green" }} />
+      <View style={styles.menupoints}>
+        <Text style={styles.menuHeaderText}>Home</Text>
+      </View>
+      <View style={styles.menupoints}>
+        <Text style={styles.menuHeaderText}>Price</Text>
+      </View>
+      <View style={styles.menupoints}>
+        <Text style={styles.menuHeaderText}>About</Text>
+      </View>
+      <View style={{ flex: 5, backgroundColor: "green" }} />
+      <View style={styles.menupoints}>
+        <Text style={styles.menuHeaderText}>Contact</Text>
+      </View>
     </View>
   );
 };
@@ -54,6 +66,12 @@ const styles = StyleSheet.create({
   menuHeaderText: {
     fontSize: 20,
     color: "white",
+  },
+  menupoints: {
+    flex: 1,
+    backgroundColor: "blue",
+    alignItems: "center",
+    justifyContent: "center",
   },
 });
 
